@@ -35,6 +35,8 @@ terraform-ansible/
 ├── inventory.ini
 ├── playbook.yml
 
+
+
 Command to run the ansible playbook    =   ansible-playbook -i inventory.ini playbook.yml
 
 Project: Automated Web Server Deployment with Terraform & Ansible
