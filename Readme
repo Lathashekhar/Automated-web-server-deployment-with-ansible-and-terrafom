@@ -1,0 +1,2 @@
+Command to run the ansible playbook    =   ansible-playbook -i inventory.ini playbook.yml
+
