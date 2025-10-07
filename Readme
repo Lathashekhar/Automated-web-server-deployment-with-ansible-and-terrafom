@@ -1,3 +1,40 @@
+# 🚀 Automated Web Server Deployment using Terraform and Ansible on AWS
+
+## 📖 Project Overview
+This project demonstrates **Infrastructure as Code (IaC)** and **Configuration Management** using **Terraform** and **Ansible**.  
+We provision AWS EC2 instances with Terraform and configure them with Ansible to deploy an Nginx web server automatically.
+
+---
+
+## 🏗️ Architecture
+1. **Terraform** provisions AWS resources:
+   - EC2 instance (Ubuntu)
+   - Security Group allowing SSH (22) and HTTP (80)
+2. **Ansible** connects via SSH and configures the instance:
+   - Installs Nginx
+   - Deploys a custom `index.html` page
+
+---
+
+## ⚙️ Tech Stack
+- **Terraform** – Infrastructure automation  
+- **Ansible** – Configuration management  
+- **AWS EC2** – Cloud compute  
+- **Ubuntu 22.04** – OS  
+- **Nginx** – Web server  
+
+---
+
+## 📁 Folder Structure
+
+terraform-ansible/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+└── ansible/
+├── inventory.ini
+├── playbook.yml
+
 Command to run the ansible playbook    =   ansible-playbook -i inventory.ini playbook.yml
 
 Project: Automated Web Server Deployment with Terraform & Ansible
