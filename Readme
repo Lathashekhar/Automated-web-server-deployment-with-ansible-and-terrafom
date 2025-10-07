@@ -1,2 +1,5 @@
 Command to run the ansible playbook    =   ansible-playbook -i inventory.ini playbook.yml
 
+Project: Automated Web Server Deployment with Terraform & Ansible
+Description: Provisioned AWS EC2 instances using Terraform and configured them via Ansible to install Nginx and deploy a custom website. Demonstrated end-to-end IaC and configuration management integration.
+Tech Stack: Terraform, Ansible, AWS, Ubuntu, Nginx
